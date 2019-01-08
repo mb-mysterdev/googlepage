@@ -1,0 +1,264 @@
+
+    .card-footer > input {
+        font-size: 16px;
+
+    }
+
+    .card-footer {
+        display: flex;
+        justify-content: space-between;
+            }
+
+    .card {
+        display: flex;
+        flex-direction : column;
+            }
+
+    .btn-compte {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .child-parts {
+        display: flex;
+        margin-left: -15px;
+
+    }
+    .card-body {
+        padding: -5px;
+        display: flex;
+        white-space: nowrap;
+        
+    }
+    .wrapper {
+        display: grid;
+    }
+    .navbar {
+        display : flex;
+        justify-content: flex-end;
+        list-style-type: none;
+    }
+    .logo {
+        border-radius: 50%;
+        width: 32px;
+        border: 0.1px solid #C0C0C0;
+    }   
+    .icons {
+        color : grey;
+    }
+    .icons1 {
+        margin-left : 10px;
+    }
+    .icons2 {
+        color : white;
+        background:grey;
+        border: solid 5px grey;
+        border-radius: 50%;
+        font-size: 10px;
+        margin-bottom : 1px;
+
+    }
+    li:hover {
+        text-decoration: underline;
+    }
+    li {
+        
+        font-family: arial,sans-serif;
+        color: rgba(0,0,0,0.87);
+        text-decoration: none;
+        font-size: 13px;
+        margin : 5px;
+    }
+
+    .navbar-text {
+        text-indent: 10px; 
+
+    }
+
+        .dropbtn {
+          color: white;
+          border: none;
+          cursor: pointer;
+          padding-bottom: 5px;
+          background-color: white;
+        }
+        
+        .dropdown {
+          float: right;
+          position: relative;
+          display: inline-block;
+        }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          min-width: 160px;
+          overflow: auto;
+          right: 0;
+          z-index: 1;
+        }
+        
+        .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+        }
+
+        .btn {
+            height: 40px;
+        }
+        
+        .btn-light {
+            border: 1px solid grey;
+        }
+        
+        .show {display: block;}
+
+        .big-logo {
+            border-radius: 50%;
+            margin-right: 10px;
+            width: 130px;
+        }
+
+        .child-parts > a {
+            color: #36c;
+        }
+
+
+        #country {
+        background-color:#f2f2f2;
+        border: solid 1px #e4e4e4;
+        padding: 10px;
+        margin-left: -11px;
+
+    }
+    #country a {
+        margin-left: 40px;
+        color: #222;
+        font-family: Arial, sans-serif;
+        
+    }
+    #parent {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 30px;
+        margin-left: 30px;
+        text-indent: 10px;
+    }
+
+   #child-1 {
+        display: flex;
+        align-content: flex-end;
+
+   }
+   #child-2 {
+       display: flex;
+       align-content: flex-end;
+   }
+    footer {
+        position:absolute;
+        bottom:0;
+        width:100%;
+        background-color:#f2f2f2;
+        border: solid 1px #e4e4e4;
+        font-size: 15px;
+
+    }
+    #parent a {
+        color: #8B8888;
+        
+    }
+#parent a:hover{
+    color: #222;
+    text-decoration: underline;
+    font-family: Arial, sans-serif;
+
+}
+
+        *{
+
+        margin:0;
+
+        padding:0;
+
+        }
+
+        
+
+        body, html{height:100%;}
+
+        .img-google{
+            width:250px;
+            margin-bottom:20px;
+          }
+          .searchbutton{
+            background-color:#EDEDED;
+            color:#828282;
+            font-family: Arial;
+            border-color: #FFF;
+            border-style: solid;
+            width:150px;
+            height:40px;
+            margin:5px;
+            /* ce margin permet de donner un petit espace aux deux bouttons */
+            font-size:12px;
+            font-weight:bold;
+            border-radius: 2px;
+          }
+          #searchtruc {
+            border: 0px solid;
+            /* le border les input est à l'origine gris. Pour ne pas l'avoir il faut préciser de l'enlever. */
+            height:40px;
+            width:70%;
+            /* le input est un peu plus petit que le div pour donner de l'espace aux border-radius et pour montrer le microphone */
+          }
+          .searchbar{
+            box-shadow: 1px 2px 5px #EDEDED;
+            margin-bottom:20px;
+            background: url("http://chittagongit.com//images/search-google-icon/search-google-icon-28.jpg");
+            background-position: 96% 50%;
+            background-repeat: no-repeat;
+            background-size: 2.5%;
+            /* le microphone est mis en tant que background. */
+            padding-right:30px;
+            /* padding pour faire en sorte que le input commence à un padding confortable  */
+            height:45px;
+            width:600px;
+            padding-left:20px;
+            border:solid 0.5px #EDEDED;
+            border-radius: 2px;
+            display:flex;
+            align-items: center;
+            /* les flex dont simplement pour mettre le input en place dans le div */
+          }
+      
+            main{
+              height:220%;
+              width:100%;
+              display:flex;
+              flex-direction: column;
+              /* le 'google', le searchbar et les bouttons forment une colone centrée */
+              justify-content: center;
+              align-items: center;
+            }
+            .searchbar:hover{
+              box-shadow: 1px 2px 5px #CCCCCC;
+              /* quand la souris vient sur la bare de recherche, l'ombre devient plus forte */
+            }
+      
+            .searchbutton:hover{
+                color:#2D2D2D;
+                text-shadow: 1px 1px 5px #EDEDED;
+                border-color: #CCCCCC;
+                border-width:0.5px;
+                border-style: solid;
+                box-shadow: 1px 1px 2px #EDEDED;
+                /* quand la souris va sur les bouttons, ils changent */
+              }
+              input:focus{
+                outline:none
+              /* le input est prédéfini à faire un outline bleu quand il est clické dessus. Donc pour l'enlever, il faut le préciser. */
+              }
+

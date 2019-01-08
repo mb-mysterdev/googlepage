@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+        <html lang="fr">
+          <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="msapplication-tap-highlight" content="no">
+            <title>Google</title>
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+            <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+            <link rel="icon" type="image/png" href="https://cdn4.iconfinder.com/data/icons/new-google-logo-2015/400/new-google-favicon-512.png" />
+            <link rel="stylesheet" type="text/css" href="style.css">
+
+        </head>
+<body>
+
+    <div class="wrapper"><!--DEBUT WRAPPER-->
+
+        <header>
+
+    <ul class="navbar">
+            <li class="navbar-text">Gmail </li>
+            <li class="navbar-text"> Images</li>
+            <li><i class="Small material-icons icons1 icons">apps</i></li>
+            <li><i class="Tiny material-icons icons1 icons2">notifications</i></li>
+            <li>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn"><img class="logo" src="https://i2.wp.com/laboate.com/next3/wp-content/uploads/2018/05/hacking-project.png?fit=240%2C239"></button>
+                <div id="myDropdown" class="dropdown-content">
+                        <div class="card">
+                            <div class="card-body">
+
+                                    <div class="parts2">
+
+                                            <div>
+                                                <img class="big-logo" src="https://i2.wp.com/laboate.com/next3/wp-content/uploads/2018/05/hacking-project.png?fit=240%2C239" alt="">
+                                            </div>
+
+                                    </div>
+                                <div class="parts1">
+                                    
+                                        <div><strong>The Hacking Project</strong></div>
+                                        <div class="email text-muted">  bonjour@thehackingproject.org</div>
+                                        <div class="child-parts">
+
+                                            <a href="#">Profil Google+</a>
+
+                                            <a href="#">Confidentialité</a>
+
+                                        </div>
+                                        <input class="btn btn-primary btn-compte" type="button" value="Compte Google">
+
+                                 </div>
+                                 </div>
+                                
+                            <div class="card-footer">
+                                
+                                <input class="btn btn-light text-muted" type="button" value="Ajouter un compte"/>
+                                <input class="btn btn-light text-muted" type="button" value="Déconnexion "/>
+
+                            </div>
+                    </div>
+                    </li>
+                </ul>
+
+        </header>
+
+        <main>
+                <img class="img-google" src="http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c51f.png"/>
+                <!-- Google utilise un font spécial... impossible de l'imiter! -->
+                <div class="searchbar">
+                <!-- Pour faire une box-shadow il faut un div... les ombres ne se mettent pas sur les input. De plus, les border-radius ne se mettent pas sur les input non plus! -->
+                  <input type="text" placeholder="" id="searchtruc"/>
+                <!-- il y a un id car les input ont un border prédéfini et il faut l'enlever pour faire semblant que tout le div est un input (d'ailleurs google le fait aussi)-->
+                </div>
+                <div class="searchbuttons">
+                <!-- Tout le main est mis en flex: column et centré sur la page, donc tous les elements vont de haut en bas. Les deux bouttons sont donc un élement pour être l'un à coté de l'autre. -->
+                  <button class="searchbutton">Recherche Google</button>
+                  <button class="searchbutton">J'ai de la chance</button>
+                </div>
+              </main>
+
+
+            <footer>
+                    <div id="country">
+                            <a>France</a>
+                        
+                        </div>
+                
+    
+                <div id="parent">
+                    <div id="child-1">
+                        <a href="https://www.google.fr/">Publicité</a>
+                        <a href="https://www.google.fr/">Entreprise</a>
+                        <a href="https://www.google.fr/">A propos</a>
+    
+                    </div>
+                    <div id="child-2">
+                        <a href="https://www.google.fr/">Consommateurs</a>
+                        <a href="https://www.google.fr/">Confidencialité</a>
+                        <a href="https://www.google.fr/">Conditions</a>
+                        <a href="https://www.google.fr/">Paramètres</a>
+    
+                    </div>
+                </div>
+                
+            </footer>
+    
+
+    </div><!--END WRAPPER-->
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
