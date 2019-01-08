@@ -2,9 +2,9 @@
 Voici le lien notre super page google : https://bonzouti.github.io/index.html/
 
 Collaborateurs :
-Pierre Mathieu 
-Bouhlel Mohamed
-Aleksandra Tsyrlina
+Pierre Mathieu @Mathieu PIERRE
+Bouhlel Mohamed @ Bouhlel Mohamed
+Aleksandra Tsyrlina @ Aleksandra T
 
 
 
